@@ -8,12 +8,17 @@ int main()
 	
 	Sum = n1 + n2;
 	
+	printf("\n");
 	if(n1>n2)
 		printf("Numbers in increasing order are: %d %d\n", n2, n1);
 	else
 		printf("Numbers in increasing order are: %d %d\n", n1, n2);
 	
+	printf("\n");
+	
 	printf("%d + %d = %d\n", n1, n2, Sum);
+	
+	printf("\n");
 	
 	if(Sum % 2 == 0) 
 		printf("%d is even\n", Sum);
